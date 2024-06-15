@@ -1,5 +1,5 @@
 $common-link-color: $primary !default;
-$blue: #4b89fb !default;
+$blue: #001336 !default;
 $success: #34c0ad !default;
 
 body {
@@ -48,7 +48,7 @@ p {
 }
 
 a {
-  color: $common-link-color;
+  color: #2ffb5d;
   text-decoration: none;
 
   &:hover,
@@ -76,6 +76,7 @@ textarea.form-control {
   display: inline-block;
   text-decoration: underline;
   text-decoration-style: dashed;
+
   &:hover {
     text-decoration-style: none;
   }
